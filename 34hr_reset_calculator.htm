@@ -1,0 +1,43 @@
+<!-- 34hr_reset_calculator.htm -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        34hr Reset Calculator
+    </title>
+    <style>
+        label {
+            font-size: 24px;
+            margin-right: 12px;
+        }
+
+        #resultContainer {
+            margin-top: 25px;
+        }
+
+        #startTime,
+        #result {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <label for="start">Reset Start:</label>
+    <input type="datetime-local" id="start">
+
+    <button id="nowBtn">Start Reset Now</button>
+    <button id="calcBtn">Calculate</button>
+
+    <div id="resultContainer">
+        <div id="startTime"></div>
+        <div id="result"></div>
+    </div>
+
+    <script src="34hr_reset_calculator.js"></script>
+</body>
+
+</html>

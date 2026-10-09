@@ -23,8 +23,8 @@ function calculateReset(start) {
         hour12: false
     }
 
-    startTime.textContent = "Your reset started at: " + start.toLocaleString('en-US', options);
-    result.textContent = "Your reset ends at: " + resetEnd.toLocaleString('en-US', options);
+    startTime.textContent = start.toLocaleString('en-US', options);
+    result.textContent = resetEnd.toLocaleString('en-US', options);
 }
 
 nowBtn.addEventListener("click", function () {
